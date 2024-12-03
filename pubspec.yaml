@@ -1,0 +1,30 @@
+name: perbaikan_pas_11pplg1_29
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  get: ^4.6.6
+  sqflite: ^2.3.3+1
+  path: ^1.8.0
+  shared_preferences: ^2.3.3
+  http: ^1.2.2
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - lib/assets/profile.jpg
+
+  uses-material-design: true
